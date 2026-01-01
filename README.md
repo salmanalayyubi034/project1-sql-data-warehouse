@@ -3,14 +3,23 @@ Building a  data warehouse with SQL. Including ETL processes, data modeling, and
 
 ---
 
-# Modern Sales Data Warehouse
+# Building the Data Warehouse (Data Engineering)
 
-## Description
-This repository contains a data engineering project that builds a modern data warehouse using Microsoft SQL Server.
+## Objective
+To develop a modern data warehouse using Microsoft SQL Server as a centralized repository for sales data.
 
-## Scope
-- Data ingestion from ERP and CRM systems (CSV format)
-- Data quality improvement and cleansing
-- Integration into a single analytical data model
-- Focus on the most recent data only
-- Clear and structured data model documentation
+## Specifications
+- Data Sources  
+  Sales data is imported from two systems: ERP and CRM, provided in CSV format.
+
+- Data Quality  
+  Data cleansing and resolution of data quality issues are performed before analysis.
+
+- Data Integration  
+  Data from multiple sources is combined into a single, user-friendly data model optimized for analytical queries.
+
+- Scope  
+  The warehouse focuses only on the latest available dataset.
+
+- Documentation  
+  Clear documentation of the data model is provided to support business stakeholders and analytics teams.
